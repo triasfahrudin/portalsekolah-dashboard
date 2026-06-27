@@ -37,6 +37,7 @@
             <div class="card-body">
                 <h4 class="card-title">
                     <a href="<?= base_url('/kabupaten_siswa_tidak_sekolah/' . $kabupaten_id) ?>" class="btn btn-warning">Kembali</a>
+                    &nbsp; Siswa Tidak Sekolah &mdash; <?= $kabupaten_nama ?>, <?= $kecamatan_nama ?>
                 </h4>
                 <div class="table-responsive" id="table-container">
                     <table id="tb_siswa_tidak_sekolah" class="table align-middle table-bordered text-center">

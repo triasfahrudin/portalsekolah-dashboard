@@ -604,7 +604,9 @@ class Home extends BaseController
 
         $data = [
             'kabupaten_id' => $kabupaten_id,
-            'data_pegawai' => $data_pegawai,
+            'kabupaten_nama' => $kabupaten_nama,
+            'kecamatan_nama' => $kecamatan_nama,
+            'data_siswa' => $data_siswa,
             'status_list' => $status_list
         ];
 
@@ -1339,6 +1341,10 @@ class Home extends BaseController
         $kabupaten_id = $this->requireNumericId($kabupaten_id);
         $db = \Config\Database::connect();
 
+        // Ambil nama kabupaten
+        $kab_row = $db->query("SELECT nama FROM wilayah_kabupaten WHERE id = ?", [$kabupaten_id])->getRowArray();
+        $kabupaten_nama = $kab_row['nama'] ?? 'Kabupaten';
+
         $query = $db->query("
             SELECT 
                 a.jk,
@@ -1401,6 +1407,7 @@ class Home extends BaseController
         $data = [
             'provinsi_id' => $provinsi_id,
             'kabupaten_id' => $kabupaten_id,
+            'kabupaten_nama' => $kabupaten_nama,
             'data_siswa' => $data_siswa,
             'status_list' => $status_list
         ];
@@ -1412,6 +1419,16 @@ class Home extends BaseController
     {
         $kecamatan_id = $this->requireNumericId($kecamatan_id);
         $db = \Config\Database::connect();
+
+        // Ambil nama kecamatan dan kabupaten
+        $kec_row = $db->query("
+            SELECT a.nama AS kecamatan_nama, b.nama AS kabupaten_nama 
+            FROM wilayah_kecamatan a 
+            JOIN wilayah_kabupaten b ON a.kabupaten_id = b.id 
+            WHERE a.id = ?
+        ", [$kecamatan_id])->getRowArray();
+        $kecamatan_nama = $kec_row['kecamatan_nama'] ?? 'Kecamatan';
+        $kabupaten_nama = $kec_row['kabupaten_nama'] ?? 'Kabupaten';
 
         $query = $db->query("
             SELECT 
@@ -1475,6 +1492,8 @@ class Home extends BaseController
 
         $data = [
             'kabupaten_id' => $kabupaten_id,
+            'kabupaten_nama' => $kabupaten_nama,
+            'kecamatan_nama' => $kecamatan_nama,
             'data_siswa' => $data_siswa,
             'status_list' => $status_list
         ];
