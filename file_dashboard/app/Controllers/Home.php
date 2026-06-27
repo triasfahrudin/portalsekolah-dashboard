@@ -39,7 +39,7 @@ class Home extends BaseController
         ");
         $resultSiswaAkhir = $querySiswaAkhir->getRow();
 
-        $querySiswaTidakSekolah = $db->query("SELECT COUNT(id) AS total FROM ats WHERE provinsi = '100000'");
+        $querySiswaTidakSekolah = $db->query("SELECT COUNT(id) AS total FROM ats WHERE provinsi = '100000' AND tanggal_lahir BETWEEN DATE_SUB(CURDATE(), INTERVAL 18 YEAR) AND DATE_SUB(CURDATE(), INTERVAL 16 YEAR)");
         $resultSiswaTidakSekolah = $querySiswaTidakSekolah->getRow();
 
         //======================================== KODE GRAFIK PEGAWAI ========================================//
@@ -280,6 +280,7 @@ class Home extends BaseController
                 FROM ats AS a
                 JOIN wilayah_kabupaten AS b ON a.kabupaten = b.id
                 WHERE b.provinsi_id = '100000'
+                    AND a.tanggal_lahir BETWEEN DATE_SUB(CURDATE(), INTERVAL 18 YEAR) AND DATE_SUB(CURDATE(), INTERVAL 16 YEAR)
                 GROUP BY b.id, b.nama, a.jk
                 ORDER BY b.id
             ");
@@ -1282,6 +1283,7 @@ class Home extends BaseController
             JOIN wilayah_kabupaten AS b ON a.kabupaten = b.id
             JOIN wilayah_provinsi AS c ON b.provinsi_id = c.id
             WHERE c.id = '100000'
+                AND a.tanggal_lahir BETWEEN DATE_SUB(CURDATE(), INTERVAL 18 YEAR) AND DATE_SUB(CURDATE(), INTERVAL 16 YEAR)
             GROUP BY b.id, b.nama, a.jk, a.status
             ORDER BY b.id
         ");
@@ -1357,6 +1359,7 @@ class Home extends BaseController
             JOIN wilayah_kecamatan AS b ON a.kecamatan = b.id
             JOIN wilayah_kabupaten AS c ON b.kabupaten_id = c.id
             WHERE c.id = ?
+                AND a.tanggal_lahir BETWEEN DATE_SUB(CURDATE(), INTERVAL 18 YEAR) AND DATE_SUB(CURDATE(), INTERVAL 16 YEAR)
             GROUP BY b.id, b.nama, a.jk, a.status
             ORDER BY b.id
         ", [$kabupaten_id]);
@@ -1443,6 +1446,7 @@ class Home extends BaseController
             JOIN wilayah_kabupaten AS c ON b.kabupaten = c.id
             JOIN wilayah_kecamatan AS d ON b.kecamatan = d.id
             WHERE d.id = ?
+                AND a.tanggal_lahir BETWEEN DATE_SUB(CURDATE(), INTERVAL 18 YEAR) AND DATE_SUB(CURDATE(), INTERVAL 16 YEAR)
             GROUP BY b.id, b.nama, a.jk, a.status
             ORDER BY b.id
         ", [$kecamatan_id]);
