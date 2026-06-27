@@ -1400,6 +1400,7 @@ class Home extends BaseController
 
         $data = [
             'provinsi_id' => $provinsi_id,
+            'kabupaten_id' => $kabupaten_id,
             'data_siswa' => $data_siswa,
             'status_list' => $status_list
         ];

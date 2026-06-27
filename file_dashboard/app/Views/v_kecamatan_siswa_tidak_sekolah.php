@@ -5,7 +5,10 @@
     <div class="col-lg-12">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Data Siswa Tidak Sekolah per Sekolah</h4>
+                <h4 class="card-title">
+                    <a href="<?= base_url('kabupaten_siswa_tidak_sekolah/' . $kabupaten_id) ?>" class="btn btn-warning">Kembali</a>
+                    Data Siswa Tidak Sekolah per Sekolah
+                </h4>
                 <div class="table-responsive">
                     <table id="tb_kecamatan_siswa_tidak_sekolah" class="table table-bordered table-striped">
                         <thead>
