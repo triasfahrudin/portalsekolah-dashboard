@@ -226,6 +226,21 @@
             });
         });
         //==================== END SEKOLAH ====================//
+
+        //==================== SISWA TIDAK SEKOLAH ====================//
+        $(document).ready(function() {
+            $('#tb_siswa_tidak_sekolah').DataTable({
+                "destroy": true, 
+                "autoWidth": false, 
+                "ordering": false, 
+                "columnDefs": [{
+                        "orderable": false,
+                        "targets": "_all"
+                    }
+                ]
+            });
+        });
+        //==================== END SISWA TIDAK SEKOLAH ====================//
     </script>
 
     <?php if (service('uri')->getSegment(1) == '' || service('uri')->getSegment(1) == 'dashboard'): ?>
