@@ -1,0 +1,31 @@
+	<div class="col-md-2">
+		<div class="card mb-3" style="max-width: 20rem;">
+			<div class="card-header text-white bg-primary">Filter</div>
+			<div class="card-body">
+				<form method="POST" action="">
+				<select class="form-control mb-2" name="filter_tahun" required="" id="filter_tahun">
+					<option value="">PILIH TAHUN</option>	
+					<?php for ($i = (int)date('Y') - 1; $i <= (int) date('Y') ; $i++) {  ?>
+					<option <?php echo set_select('filter_tahun', $i); ?>  value="<?php echo $i;?>"><?php echo $i;?></option>
+					<?php } ?>		      		
+				</select>
+				<select class="form-control mb-2" name="filter_bulan" required="" id="filter_bulan">		      	
+					<option value="">PILIH BULAN</option>	
+					<option <?php echo set_select('filter_bulan', '1');?> value="1">JANUARI</option>
+					<option <?php echo set_select('filter_bulan', '2');?> value="2">FEBRUARI</option>
+					<option <?php echo set_select('filter_bulan', '3');?> value="3">MARET</option>
+					<option <?php echo set_select('filter_bulan', '4');?> value="4">APRIL</option>
+					<option <?php echo set_select('filter_bulan', '5');?> value="5">MEI</option>
+					<option <?php echo set_select('filter_bulan', '6');?> value="6">JUNI</option>
+					<option <?php echo set_select('filter_bulan', '7');?> value="7">JULI</option>
+					<option <?php echo set_select('filter_bulan', '8');?> value="8">AGUSTUS</option>
+					<option <?php echo set_select('filter_bulan', '9');?> value="9">SEPTEMBER</option>
+					<option <?php echo set_select('filter_bulan', '10');?> value="10">OKTOBER</option>
+					<option <?php echo set_select('filter_bulan', '11');?> value="11">NOVEMBER</option>
+					<option <?php echo set_select('filter_bulan', '12');?> value="12">DESEMBER</option>
+				</select>
+				<button type="submit" class="btn btn-block btn-success">Tampilkan</button>
+				</form>
+			</div>
+			</div>
+	</div>

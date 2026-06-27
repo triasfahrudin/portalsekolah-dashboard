@@ -1,0 +1,50 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2024-12-23 09:18:16 --> Severity: Warning --> Trying to access array offset on value of type int /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php 275
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 276 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 277 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 278 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 279 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 280 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 281 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 282 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 283 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 284 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 285 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 286 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 287 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 288 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 290 ]
+ERROR - 2024-12-23 09:18:16 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 291 ]
+ERROR - 2024-12-23 11:38:29 --> 404 Page Not Found: /index
+ERROR - 2024-12-23 11:38:29 --> ErrorException [ 1 ]: The page you requested was not found. ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/core/MY_Exceptions.php [ 513 ]
+ERROR - 2024-12-23 11:38:32 --> 404 Page Not Found: /index
+ERROR - 2024-12-23 11:38:32 --> ErrorException [ 1 ]: The page you requested was not found. ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/core/MY_Exceptions.php [ 513 ]
+ERROR - 2024-12-23 11:38:34 --> 404 Page Not Found: /index
+ERROR - 2024-12-23 11:38:34 --> ErrorException [ 1 ]: The page you requested was not found. ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/core/MY_Exceptions.php [ 513 ]
+ERROR - 2024-12-23 11:38:43 --> 404 Page Not Found: /index
+ERROR - 2024-12-23 11:38:43 --> ErrorException [ 1 ]: The page you requested was not found. ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/core/MY_Exceptions.php [ 513 ]
+ERROR - 2024-12-23 15:52:14 --> 404 Page Not Found: /index
+ERROR - 2024-12-23 15:52:14 --> ErrorException [ 1 ]: The page you requested was not found. ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/core/MY_Exceptions.php [ 513 ]
+ERROR - 2024-12-23 15:38:09 --> Severity: Warning --> Trying to access array offset on value of type int /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php 275
+ERROR - 2024-12-23 15:38:09 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 276 ]
+ERROR - 2024-12-23 15:38:09 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 277 ]
+ERROR - 2024-12-23 15:38:09 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 278 ]
+ERROR - 2024-12-23 15:38:09 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 279 ]
+ERROR - 2024-12-23 15:38:09 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 280 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 281 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 282 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 283 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 284 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 285 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 286 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 287 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 288 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 290 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 291 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 292 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 293 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 295 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 296 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 297 ]
+ERROR - 2024-12-23 15:38:10 --> ErrorException [ 2 ]: Trying to access array offset on value of type int ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/helpers/api_helper.php [ 298 ]

@@ -1,0 +1,14 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-01-17 10:22:16 --> Severity: Warning --> Undefined array key "HTTP_ACCEPT_ENCODING" /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/modules/signin/controllers/Signin.php 6
+ERROR - 2025-01-17 10:22:16 --> ErrorException [ 8192 ]: substr_count(): Passing null to parameter #1 ($haystack) of type string is deprecated ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/application/modules/signin/controllers/Signin.php [ 6 ]
+ERROR - 2025-01-17 09:22:16 --> ErrorException [ 2 ]: ini_set(): Session ini settings cannot be changed after headers have already been sent ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/system-3.1.13/libraries/Session/Session.php [ 303 ]
+ERROR - 2025-01-17 09:22:16 --> ErrorException [ 2 ]: session_set_cookie_params(): Session cookie parameters cannot be changed after headers have already been sent ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/system-3.1.13/libraries/Session/Session.php [ 334 ]
+ERROR - 2025-01-17 09:22:16 --> ErrorException [ 2 ]: ini_set(): Session ini settings cannot be changed after headers have already been sent ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/system-3.1.13/libraries/Session/Session.php [ 355 ]
+ERROR - 2025-01-17 09:22:16 --> ErrorException [ 2 ]: ini_set(): Session ini settings cannot be changed after headers have already been sent ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/system-3.1.13/libraries/Session/Session.php [ 365 ]
+ERROR - 2025-01-17 09:22:16 --> ErrorException [ 2 ]: ini_set(): Session ini settings cannot be changed after headers have already been sent ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/system-3.1.13/libraries/Session/Session.php [ 366 ]
+ERROR - 2025-01-17 09:22:16 --> ErrorException [ 2 ]: ini_set(): Session ini settings cannot be changed after headers have already been sent ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/system-3.1.13/libraries/Session/Session.php [ 367 ]
+ERROR - 2025-01-17 09:22:16 --> ErrorException [ 2 ]: ini_set(): Session ini settings cannot be changed after headers have already been sent ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/system-3.1.13/libraries/Session/Session.php [ 368 ]
+ERROR - 2025-01-17 09:22:16 --> ErrorException [ 2 ]: ini_set(): Session ini settings cannot be changed after headers have already been sent ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/system-3.1.13/libraries/Session/Session.php [ 426 ]
+ERROR - 2025-01-17 09:22:16 --> ErrorException [ 2 ]: session_set_save_handler(): Session save handler cannot be changed after headers have already been sent ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/system-3.1.13/libraries/Session/Session.php [ 110 ]
+ERROR - 2025-01-17 09:22:16 --> ErrorException [ 2 ]: session_start(): Session cannot be started after headers have already been sent ~ /www/wwwroot/tpp.disdik.jambiprov.go.id/pppk/system-3.1.13/libraries/Session/Session.php [ 137 ]

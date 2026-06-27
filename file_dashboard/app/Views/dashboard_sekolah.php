@@ -2,9 +2,9 @@
 
 
 <?= $this->section('content'); ?>
-<div class="row">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3">
     <!-- PEGAWAI -->
-    <div class="col-md-6 col-lg-3">
+    <div class="col">
         <a href="<?= base_url('/pegawai') ?>">
             <div class="card card-body">
                 <div class="row">
@@ -25,7 +25,7 @@
     <!-- END PEGAWAI -->
 
     <!-- SEKOLAH -->
-    <div class="col-md-6 col-lg-3">
+    <div class="col">
         <a href="<?= base_url('/sekolah') ?>">
             <div class="card card-body">
                 <div class="row">
@@ -46,7 +46,7 @@
     <!-- END SEKOLAH -->
 
     <!-- SISWA -->
-    <div class="col-md-6 col-lg-3">
+    <div class="col">
         <a href="<?= base_url('/siswa') ?>">
             <div class="card card-body">
                 <div class="row">
@@ -67,7 +67,7 @@
     <!-- END SISWA -->
 
     <!-- SISWA AKHIR -->
-    <div class="col-md-6 col-lg-3">
+    <div class="col">
         <a href="<?= base_url('/siswa_akhir') ?>">
             <div class="card card-body">
                 <div class="row">
@@ -88,7 +88,7 @@
     <!-- END SISWA AKHIR -->
 
     <!-- SISWA TIDAK SEKOLAH -->
-    <div class="col-md-6 col-lg-3">
+    <div class="col">
         <a href="<?= base_url('/siswa_tidak_sekolah') ?>">
             <div class="card card-body">
                 <div class="row">
@@ -107,7 +107,9 @@
         </a>
     </div>
     <!-- END SISWA TIDAK SEKOLAH -->
+</div>
 
+<div class="row">
     <!-- //======================================== KODE GRAFIK PEGAWAI ========================================// -->
     <div class="col-lg-12">
         <div class="card">
